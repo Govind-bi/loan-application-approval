@@ -1,1 +1,27 @@
+📂 Project Structure
+Loan-Approval-Prediction/
+│── data/
+│   ├── train.csv
+│   ├── test_Y3wMUE5_7gLdaTN.csv
+│
+│── models/
+│   └── best_loan_approval_model.pkl
+│
+│── notebooks/
+│   └── Loan_Approval_Analysis.ipynb
+│
+│── src/
+│   └── loan_approval.py       
+│
+│── submission.csv
+│── requirements.txt
+│── README.md
+│── .gitignore
 
+
+## 📌 Features
+- Data Preprocessing (handling missing values, encoding, scaling)
+- Model Training (Logistic Regression, Decision Tree, Random Forest, SVM, KNN)
+- Model Evaluation (Accuracy, Classification Report, Confusion Matrix)
+- Save & Load Best Model (`joblib`)
+- Generate `submission.csv` for final predictions
